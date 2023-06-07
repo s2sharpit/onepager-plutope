@@ -1,7 +1,7 @@
 import { HTMLAttributes, forwardRef } from "react";
 import { cn } from "@/lib/utils";
 
-const sectionVaraints = "py-8 sm:pt-24 grid justify-center";
+const sectionVaraints = "py-16 sm:pt-24 grid justify-center";
 
 interface SectionProps extends HTMLAttributes<HTMLDivElement> {}
 

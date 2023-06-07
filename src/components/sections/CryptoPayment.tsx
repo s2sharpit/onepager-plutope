@@ -12,11 +12,10 @@ const data = [
 export default function CryptoPayment() {
   return (
     <Section>
-      <Title>Crypto Payment</Title>
+      <Title className="pb-4">Crypto Payment</Title>
       <Subtle>
         Debit Card powered <br /> by Mastercard
       </Subtle>
-      <Wrapper>
       <ul className="list-disc pt-16 grid md:grid-cols-2 justify-center max-w-6xl gap-x-20 items-center text-neutral-300 text-lg">
       {data.map((d,i) => (
         <li key={i} className="flex items-center py-2 space-x-4 xl:py-3">
@@ -25,10 +24,8 @@ export default function CryptoPayment() {
       </li>
         ))}
     </ul>
-    <div className="h-40"></div>
     {/* <Image className="absolute wscreen opacity-60" src={'/assets/debit-card.png'} width={800} height={200} alt="" /> */}
-    <Image className="" src={'/assets/Table.png'} width={600} height={200} alt="" />
-    </Wrapper>
+    <Image className="justify-self-center" src={'/assets/Table.png'} width={600} height={200} alt="" />
     </Section>
   );
 }

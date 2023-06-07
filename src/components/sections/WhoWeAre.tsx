@@ -5,8 +5,8 @@ export default function WhoWeAre() {
   return (
     <Section>
       <Title>Who We Are</Title>
-      <div className ="grid grid-cols-2 max-sm:text-xs md:grid-cols-3 mt-12 justify-between items-center w-full gap-y-12 gap-x-16 text-white">
-        <figure className ="flex flex-col items-center justify-center">
+      <div className ="grid max-sm:text-xs grid-cols-3 mt-12 justify-between items-center w-full gap-y-12 gap-x-16 text-white">
+        <figure className ="flex flex-col items-center justify-center text-center">
           <Image src="/img/f1.jpeg" width={100} height={100} alt="" />
           <figcaption className ="mt-2">Non Custodial Wallet</figcaption>
         </figure>

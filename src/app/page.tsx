@@ -1,4 +1,13 @@
-import { CryptoPayment, EarlyPart, Main, OurInvesters, OurPartners, Roadmap, WhoWeAre } from "@/components/sections";
+import {
+  CryptoPayment,
+  EarlyPart,
+  Footer,
+  Main,
+  OurInvesters,
+  OurPartners,
+  Roadmap,
+  WhoWeAre,
+} from "@/components/sections";
 
 export default function Home() {
   return (
@@ -10,7 +19,7 @@ export default function Home() {
       <OurPartners />
       <Roadmap />
       <EarlyPart />
+      <Footer />
     </main>
   );
 }
-

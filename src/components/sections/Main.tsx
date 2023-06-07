@@ -4,13 +4,10 @@ import Link from "next/link";
 export default function Main() {
     return (
       <Section className="min-h-screen">
-        <Link
-          href="#"
-          className="mx-auto"
-        >
+        <Link href="#" className="mx-auto">
           <svg
             width="150"
-            height="150"
+            height="70"
             viewBox="0 0 361 153"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -75,7 +72,16 @@ export default function Main() {
             </defs>
           </svg>
         </Link>
-        <Title size={'lg'}>Hello Financial, <br /> Freedom</Title>
+        <Title size={"lg"}>
+          Hello Financial, <br /> Freedom
+        </Title>
+        <Link href="https://plutope.io/" className="relative w-fit group sm:w-auto justify-self-center self-center">
+          <span className="absolute top-0 left-0 w-full h-full text-transparent border-2 border-white rounded">
+          </span>
+          <span className="px-8 inline-block bg-gradient-to-br sm:w-auto w-full text-center from-yellow-200 font-semibold via-red-300 to-pink-400 relative transition-all ease-linear duration-150 transform group-hover:-translate-y-1.5 group-hover:translate-x-1.5 -translate-y-2.5 text-lg rounded translate-x-2 py-4">
+            Get Started
+          </span>
+        </Link>
       </Section>
     );
 }
