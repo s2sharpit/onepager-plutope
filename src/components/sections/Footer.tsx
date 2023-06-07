@@ -4,7 +4,7 @@ import Image from "next/image";
 const cardData = [
   { img: "Instagram", views: 4200 },
   { img: "telegram", views: 2300 },
-  { img: "discord", views: 1900 },
+  { img: "Discord", views: 1900 },
   { img: "twitter", views: 5700 },
   { img: "Linkdin", views: 2100 },
   { img: "Emailer", views: 30000 },
