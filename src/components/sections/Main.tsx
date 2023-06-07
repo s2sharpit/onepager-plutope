@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Main() {
     return (
       <Section className="min-h-screen">
-        <Link href="#" className="mx-auto">
+        <Link href="/" className="mx-auto">
           <svg
             width="150"
             height="70"
