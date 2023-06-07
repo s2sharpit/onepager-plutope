@@ -1,4 +1,5 @@
 import { Section, Subtle, Title } from "@/components/ui";
+import Image from "next/image";
 import Link from "next/link";
 
 const roadmapData = [
@@ -34,7 +35,9 @@ export default function Roadmap() {
       );
     }
   return (
-    <Section>
+    <Section className="relative overflow-x-">
+      <Image src={'/assets/bitcoin-icon.png'} width={120} height={120} alt="" className="absolute -left-12 -top-4" />
+      <Image src={'/assets/bitcoin-green.png'} width={120} height={120} alt="" className="absolute -right-12 bottom-8" />
       <Title>Roadmap</Title>
       <div className="max-w-2xl">
         {roadmapData.map((data) => (

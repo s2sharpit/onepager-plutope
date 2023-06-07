@@ -11,7 +11,7 @@ const data = [
 
 export default function CryptoPayment() {
   return (
-    <Section>
+    <Section className="relative">
       <Title className="pb-4">Crypto Payment</Title>
       <Subtle>
         Debit Card powered <br /> by Mastercard
@@ -24,8 +24,8 @@ export default function CryptoPayment() {
       </li>
         ))}
     </ul>
-    {/* <Image className="absolute wscreen opacity-60" src={'/assets/debit-card.png'} width={800} height={200} alt="" /> */}
-    <Image className="justify-self-center" src={'/assets/Table.png'} width={600} height={200} alt="" />
+    <Image className="absolute max-md:min-w-[100dvw] flex justify-self-center opacity-40 h-96 bottom-80 md:top-96" src={'/assets/debit-card.png'} width={1000} height={200} alt="" />
+    <Image className="justify-self-center mt-60" src={'/assets/Table.png'} width={600} height={200} alt="" />
     </Section>
   );
 }
