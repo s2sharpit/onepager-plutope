@@ -17,15 +17,29 @@ export default function CryptoPayment() {
         Debit Card powered <br /> by Mastercard
       </Subtle>
       <ul className="list-disc pt-16 grid md:grid-cols-2 justify-center max-w-6xl gap-x-20 items-center text-neutral-300 text-lg">
-      {data.map((d,i) => (
-        <li key={i} className="flex items-center py-2 space-x-4 xl:py-3">
-        <span className="inline-block w-2 h-2 bg-white rounded-full"></span>
-        <span>{d.p}</span>
-      </li>
+        {data.map((d, i) => (
+          <li key={i} className="flex items-center py-2 space-x-4 xl:py-3">
+            <span className="inline-block w-2 h-2 bg-white rounded-full"></span>
+            <span>{d.p}</span>
+          </li>
         ))}
-    </ul>
-    <Image className="absolute max-md:min-w-[100dvw] flex justify-self-center opacity-40 h-96 bottom-80 md:top-96" src={'/assets/debit-card.png'} width={1000} height={200} alt="" />
-    <Image className="justify-self-center mt-60" src={'/assets/Table.png'} width={600} height={200} alt="" />
+      </ul>
+      <div className="absolute max-md:min-w-[100dvw] flex justify-self-center bottom-80 md:top-96">
+        <Image
+          className="opacity-40 h-96 "
+          src={"/assets/debit-card.png"}
+          width={1000}
+          height={200}
+          alt=""
+        />
+      </div>
+      <Image
+        className="justify-self-center mt-60 opacity-50"
+        src={"/assets/Table.png"}
+        width={600}
+        height={200}
+        alt=""
+      />
     </Section>
   );
 }
