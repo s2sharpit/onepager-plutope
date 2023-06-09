@@ -24,7 +24,7 @@ export default function CryptoPayment() {
           </li>
         ))}
       </ul>
-      <div className="absolute max-md:min-w-[100dvw] flex justify-self-center bottom-80 md:top-96">
+      <div className="absolute xs:hidden max-md:min-w-[100dvw] flex justify-self-center bottom-80 md:top-96">
         <Image
           className="opacity-40 h-96 "
           src={"/assets/debit-card.png"}
@@ -34,7 +34,7 @@ export default function CryptoPayment() {
         />
       </div>
       <Image
-        className="justify-self-center mt-60 opacity-50"
+        className="justify-self-center max-xs:mt-60 opacity-50"
         src={"/assets/Table.png"}
         width={600}
         height={200}

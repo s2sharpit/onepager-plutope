@@ -42,10 +42,10 @@ export default function Main() {
                 gradientUnits="userSpaceOnUse"
               >
                 <stop />
-                <stop offset="0.24" stop-color="#121619" />
-                <stop offset="0.5" stop-color="#23282F" />
-                <stop offset="0.76" stop-color="#2C343C" />
-                <stop offset="1" stop-color="#303841" />
+                <stop offset="0.24" stopColor="#121619" />
+                <stop offset="0.5" stopColor="#23282F" />
+                <stop offset="0.76" stopColor="#2C343C" />
+                <stop offset="1" stopColor="#303841" />
               </linearGradient>
               <linearGradient
                 id="paint1_linear_27_79"
@@ -56,10 +56,10 @@ export default function Main() {
                 gradientUnits="userSpaceOnUse"
               >
                 <stop />
-                <stop offset="0.04" stop-color="#020304" />
-                <stop offset="0.44" stop-color="#1B2025" />
-                <stop offset="0.78" stop-color="#2A3139" />
-                <stop offset="1" stop-color="#303841" />
+                <stop offset="0.04" stopColor="#020304" />
+                <stop offset="0.44" stopColor="#1B2025" />
+                <stop offset="0.78" stopColor="#2A3139" />
+                <stop offset="1" stopColor="#303841" />
               </linearGradient>
               <clipPath id="clip0_27_79">
                 <rect
