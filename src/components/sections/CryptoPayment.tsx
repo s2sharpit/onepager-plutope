@@ -13,13 +13,13 @@ export default function CryptoPayment() {
   return (
     <Section className="relative">
       <Title className="pb-4">Crypto Payment</Title>
-      <Subtle>
-        Debit Card powered <br /> by Mastercard
-      </Subtle>
-      <ul className="list-disc pt-16 grid md:grid-cols-2 justify-center max-w-6xl gap-x-20 items-center text-neutral-300 text-lg">
+      <Title className="font-extralight text-2xl">
+        Debit Card powered by Mastercard
+      </Title>
+      <ul className="list-disc pt- grid grid-cols-2 justify-center max-w-6xl gap-x-10 items-center text-neutral-300 text-lg">
         {data.map((d, i) => (
-          <li key={i} className="flex items-center py-2 space-x-4 xl:py-3">
-            <span className="inline-block w-2 h-2 bg-white rounded-full"></span>
+          <li key={i} className="flexitems-center py-2 space-x-4 xl:py-3">
+            {/* <span className="inline-block w-2 h-2 bg-white rounded-full"></span> */}
             <span>{d.p}</span>
           </li>
         ))}

@@ -28,6 +28,11 @@ const cardData = [
     views: 2100,
     url: "https://www.linkedin.com/company/plutope/",
   },
+  {
+    img: "Emailer",
+    views: 30000,
+    url: "mailto:hey@plutope.io",
+  }
 ];
 
 export default function Footer() {

@@ -2,7 +2,7 @@ import { HTMLAttributes, forwardRef } from "react";
 import { cn } from "@/lib/utils";
 
 const sectionVaraints =
-  "py-16 px-8 sm:pt-24 overflow-hidden grid justify-center";
+  "py-12 px-8 sm:pt-24 overflow-hidden grid justify-center";
 
 interface SectionProps extends HTMLAttributes<HTMLDivElement> {}
 

@@ -62,22 +62,23 @@ export default function Roadmap() {
     );
   }
   return (
-    <Section className="relative">
+    <Section className="relative pt-24">
       <Image
         src={"/assets/bitcoin-icon.png"}
-        width={120}
-        height={120}
+        width={180}
+        height={180}
         alt=""
-        className="absolute -left-12 -top-4"
+        className="absolute -left-20 -top-4"
       />
       <Image
         src={"/assets/bitcoin-green.png"}
-        width={120}
-        height={120}
+        width={180}
+        height={180}
         alt=""
-        className="absolute -right-12 bottom-8"
+        className="absolute -right-20 -bottom-8"
       />
-      <Title>Roadmap</Title>
+      <Title className="pb-2">Roadmap</Title>
+      <Title className="font-extralight">Horizontal Scale</Title>
       <div className="max-w-2xl">
         {roadmapData.map((data) => (
           <Card key={data.yr} data={data} />
