@@ -1,9 +1,17 @@
 import { Section, Title } from "@/components/ui";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Main() {
     return (
-      <Section className="gap-y-12">
+      <Section className="h-[38rem] md:h-[44rem] items-start sm:pt-12 bg-black bg-[url('../../public/assets/banne5r.png')] bg-contain md:bg-[length:100%_100%] bg-no-repeat bg-center relative">
+        <Image
+          src={"/assets/Bitcoi--4.png"}
+          width={180}
+          height={180}
+          alt=""
+          className="absolute -left-20 -top-20"
+        />
         <Link href="/" className="mx-auto">
           <svg
             width="150"
@@ -72,7 +80,7 @@ export default function Main() {
             </defs>
           </svg>
         </Link>
-        <Title size={"lg"}>
+        <Title className=" relative bottom-20 md:bottom-32 md:text-6xl">
           <span className="font-thin">Hello</span> Financial, <br /> Freedom
         </Title>
         {/* <Link

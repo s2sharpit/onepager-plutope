@@ -10,7 +10,7 @@ const data = [
 ];
 export default function EarlyPart() {
   return (
-    <Section className="relative ">
+    <Section className="relative">
       <Image
         src={"/assets/Bitcoi--4.png"}
         width={180}
@@ -26,7 +26,7 @@ export default function EarlyPart() {
         className="absolute -right-20 bottom-0"
       />
 
-      <Title className="max-w-xs">Early Participation Benefits</Title>
+      <Title className="max-sm:max-w-xs justify-self-center">Early Participation Benefits</Title>
       <ol className=" grid justify-center place-items-center max-w-6xl gap-x-20 items-center text-neutral-300 text-lg">
         {data.map((d, i) => (
           <li key={i} className="text-center py-2 space-x-4 xl:py-3">
