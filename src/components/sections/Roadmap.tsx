@@ -32,34 +32,34 @@ const roadmapData = [
 ];
 
 export default function Roadmap() {
-  let toggle = true;
+  // let toggle = true;
 
-  function Card({ data }: { data: RInterface }) {
-    toggle = !toggle;
-    return (
-      <div className="group grid grid-cols-[1fr_max-content_1fr] gap-2 gap-x-6 ">
-        <div className={`${toggle && "hidden"}`}></div>
-        <div className={`${toggle && "order-last"}`}>
-          <span className="inline-block h-[13px] w-[13px] bg-neutral-500 rounded-full"></span>
-          <div className="w-[1px] h-full bg-neutral-500 -translate-y-2 translate-x-[6px]"></div>
-        </div>
-        <div>
-          <Subtle
-            className={`${toggle ? "text-right" : "text-left"} text-white mb-4`}
-          >
-            {data.yr}
-          </Subtle>
-          <ul className="list-disc grid justify-center max-w-6xl gap-x-20 items-center text-neutral-300 text-lg">
-            {data.p.map((d, i) => (
-              <li key={i} className="flex items-center py-2 space-x-4 xl:py-3">
-                <span className="max-w-sm max-md:text-xs">{d.q}</span>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </div>
-    );
-  }
+  // function Card({ data }: { data: RInterface }) {
+  //   toggle = !toggle;
+  //   return (
+  //     <div className="group grid grid-cols-[1fr_max-content_1fr] gap-2 gap-x-6 ">
+  //       <div className={`${toggle && "hidden"}`}></div>
+  //       <div className={`${toggle && "order-last"}`}>
+  //         <span className="inline-block h-[13px] w-[13px] bg-neutral-500 rounded-full"></span>
+  //         <div className="w-[1px] h-full bg-neutral-500 -translate-y-2 translate-x-[6px]"></div>
+  //       </div>
+  //       <div>
+  //         <Subtle
+  //           className={`${toggle ? "text-right" : "text-left"} text-white mb-4`}
+  //         >
+  //           {data.yr}
+  //         </Subtle>
+  //         <ul className="list-disc grid justify-center max-w-6xl gap-x-20 items-center text-neutral-300 text-lg">
+  //           {data.p.map((d, i) => (
+  //             <li key={i} className="flex items-center py-2 space-x-4 xl:py-3">
+  //               <span className="max-w-sm max-md:text-xs">{d.q}</span>
+  //             </li>
+  //           ))}
+  //         </ul>
+  //       </div>
+  //     </div>
+  //   );
+  // }
   return (
     <Section className="relative pt-24">
       <Image
@@ -74,15 +74,16 @@ export default function Roadmap() {
         width={180}
         height={180}
         alt=""
-        className="absolute -right-20 -bottom-8"
+        className="absolute -right-20 bottom-16"
       />
       <Title className="pb-2">Roadmap</Title>
       <Title className="font-extralight">Horizontal Scale</Title>
-      <div className="max-w-2xl">
+      {/* <div className="max-w-2xl">
         {roadmapData.map((data) => (
           <Card key={data.yr} data={data} />
         ))}
-      </div>
+      </div> */}
+      <Image className="max-w-lg px-4" src={"/assets/roadmap.png"} width={800} height={800} alt="" />
     </Section>
   );
 }

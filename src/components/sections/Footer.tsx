@@ -29,7 +29,7 @@ const cardData = [
     url: "https://www.linkedin.com/company/plutope/",
   },
   {
-    img: "timer",
+    img: "Timer",
     views: 31500,
     url: "",
   }
