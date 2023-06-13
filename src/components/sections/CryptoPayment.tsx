@@ -12,6 +12,7 @@ const data = [
 export default function CryptoPayment() {
   return (
     <Section className="relative">
+      <div className="z-10">
       <Title className="mb-2">Crypto Payment</Title>
       <Title className="font-extralight text-2xl">
         Debit Card powered by Mastercard
@@ -23,7 +24,8 @@ export default function CryptoPayment() {
           </li>
         ))}
       </ul>
-      <div className="absolute xs:hidden max-md:min-w-[100dvw] flex justify-self-center bottom-80 md:top-96">
+        </div>
+      <div className="absolute sm:hidden max-md:min-w-[100dvw] flex justify-self-center bottom-96 md:top-96">
         <Image
           className="top-60 relative "
           src={"/assets/debit.png"}
@@ -33,10 +35,10 @@ export default function CryptoPayment() {
         />
       </div>
       <Image
-        className="justify-self-center max-xs:mt-60 opacity-50"
-        src={"/assets/Table.png"}
-        width={600}
-        height={200}
+        className="justify-self-center max-sm:mt-60 max-w-xl w-screen"
+        src={"/assets/tableq.png"}
+        width={1000}
+        height={1000}
         alt=""
       />
     </Section>
