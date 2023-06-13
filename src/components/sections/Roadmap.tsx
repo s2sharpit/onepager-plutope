@@ -2,34 +2,34 @@ import { Section, Subtle, Title } from "@/components/ui";
 import Image from "next/image";
 import Link from "next/link";
 
-interface RInterface {
-  yr: number;
-  p: {
-    q: string;
-  }[];
-}
-[];
+// interface RInterface {
+//   yr: number;
+//   p: {
+//     q: string;
+//   }[];
+// }
+// [];
 
-const roadmapData = [
-  {
-    yr: 2022,
-    p: [
-      {q: "Q1:Conceptualization and planning of non-custodial wallet."},
-      {q: "Q2:Launch landing page, hire developers and staff."},
-      {q: "Q3:Design infrastructure and UI/UX, launch waitlist program."},
-      {q: "Q4:Build Bolt network for connecting to various blockchain networks."},
-    ],
-  },
-  {
-    yr: 2023,
-    p: [
-      {q: "Q1:Launch multi-chain lightning network for faster transactions."},
-      {q: "Q2:Integrate with debit card providers, forge partnerships, launch debit card, announce beta testing."},
-      {q: "Q3:Explore forex trading capabilities, launch official wallet."},
-      {q: "Q4:Launch Scan and Pay feature using NFC technology, launch official token."},
-    ],
-  },
-];
+// const roadmapData = [
+//   {
+//     yr: 2022,
+//     p: [
+//       {q: "Q1:Conceptualization and planning of non-custodial wallet."},
+//       {q: "Q2:Launch landing page, hire developers and staff."},
+//       {q: "Q3:Design infrastructure and UI/UX, launch waitlist program."},
+//       {q: "Q4:Build Bolt network for connecting to various blockchain networks."},
+//     ],
+//   },
+//   {
+//     yr: 2023,
+//     p: [
+//       {q: "Q1:Launch multi-chain lightning network for faster transactions."},
+//       {q: "Q2:Integrate with debit card providers, forge partnerships, launch debit card, announce beta testing."},
+//       {q: "Q3:Explore forex trading capabilities, launch official wallet."},
+//       {q: "Q4:Launch Scan and Pay feature using NFC technology, launch official token."},
+//     ],
+//   },
+// ];
 
 export default function Roadmap() {
   // let toggle = true;
@@ -76,14 +76,14 @@ export default function Roadmap() {
         alt=""
         className="absolute -right-20 bottom-16"
       />
-      <Title className="pb-2">Roadmap</Title>
+      <Title className="mb-2">Roadmap</Title>
       <Title className="font-extralight">Horizontal Scale</Title>
       {/* <div className="max-w-2xl">
         {roadmapData.map((data) => (
           <Card key={data.yr} data={data} />
         ))}
       </div> */}
-      <Image className="max-w-lg px-4" src={"/assets/roadmap.png"} width={800} height={800} alt="" />
+      <Image className="max-w-lg w-screen px-4" src={"/assets/roadmap.png"} width={800} height={800} alt="" />
     </Section>
   );
 }

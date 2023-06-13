@@ -22,9 +22,9 @@ export default function OurInvesters() {
 
 function Investor({ heading, para }: { heading: string; para: string }) {
   return (
-    <div className="bg-[url('../../public/assets/hexagon.png')] bg-no-repeat bg-center bg-contain w-[7rem] h-[7.5rem] px-0.5 flex flex-col items-center justify-center">
+    <div className="bg-[url('../../public/assets/hexagon.png')] bg-no-repeat bg-center bg-contain w-[5.5rem] h-24 xs:w-[7rem] xs:h-[7.5rem] px-0.5 flex flex-col items-center justify-center">
       <h1 className="font-bold text-2xl">{heading}</h1>
-      <p className="flex items-center text-xs text-center h-8">
+      <p className="flex items-center text-[0.6rem] xs:text-xs text-center h-8">
         {para}
       </p>
     </div>

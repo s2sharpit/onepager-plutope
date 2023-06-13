@@ -3,7 +3,7 @@ import { VariantProps, cva } from "class-variance-authority";
 import { cn } from "@/lib/utils";
 
 const titleVariants = cva(
-  "text-white text-center font-bold pb-12",
+  "text-white text-center font-bold mb-12",
   {
     variants: {
       size: {

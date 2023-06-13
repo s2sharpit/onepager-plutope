@@ -12,7 +12,7 @@ const data = [
 export default function CryptoPayment() {
   return (
     <Section className="relative">
-      <Title className="pb-4">Crypto Payment</Title>
+      <Title className="mb-2">Crypto Payment</Title>
       <Title className="font-extralight text-2xl">
         Debit Card powered by Mastercard
       </Title>
