@@ -11,7 +11,7 @@ import {
 
 export default function Home() {
   return (
-    <main className="min-h-screen mx-auto text-white bg-black bg-[url('../../public/assets/bg.png')] bg-[length:100%_100%]">
+    <main className="overflow-hidden min-h-screen mx-auto text-white bg-black bg-[url('../../public/assets/bg.png')] bg-[length:100%_100%]">
       <Main />
       <WhoWeAre />
       <CryptoPayment />

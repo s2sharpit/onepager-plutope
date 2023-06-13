@@ -4,13 +4,13 @@ import Link from "next/link";
 
 export default function Main() {
     return (
-      <Section className="h-[38rem] md:h-[44rem] items-start sm:pt-12 bg-black bg-[url('../../public/assets/banne5r.png')] bg-contain md:bg-[length:100%_100%] bg-no-repeat bg-center relative">
+      <Section className="h-[28rem] md:h-[44rem] items-start sm:pt-12 bg-black bg-[url('../../public/assets/banne5r.png')] bg-bottom bg-[length:100%] md:bg-[length:100%_100%] bg-no-repeat md:bg-center relative">
         <Image
           src={"/assets/Bitcoi--4.png"}
           width={180}
           height={180}
           alt=""
-          className="absolute -left-20 -top-20"
+          className="absolute -right-28 top-20"
         />
         <Link href="/" className="mx-auto">
           <svg
@@ -80,7 +80,7 @@ export default function Main() {
             </defs>
           </svg>
         </Link>
-        <Title className=" relative bottom-20 md:bottom-32 md:text-6xl">
+        <Title className=" relative bottom-8 md:bottom-32 md:text-6xl">
           <span className="font-thin">Hello</span> Financial, <br /> Freedom
         </Title>
         {/* <Link

@@ -3,10 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 const data = [
-  { p: "1. Exclusive Rewards and Promotion." },
-  { p: "2. Priority Access to Card Earlier Shipping." },
-  { p: "3. Bonuses in PLT Token." },
-  { p: "4. Reserve Highest Tier to be only exclusive for early adopter." },
+  { p: "1. Exclusive Rewards" },
+  { p: "2. Priority Access to card" },
+  { p: "3. Bonuses in PLT Token" },
 ];
 export default function EarlyPart() {
   return (
@@ -35,7 +34,7 @@ export default function EarlyPart() {
         ))}
       </ol>
 
-      <div className="mt-12 text-center bg-black justify-self-center py-4 px-8 rounded-full bg-gradient-to-r from-purple-900 viapurple-700 to-blue-800">Join us- All socials</div>
+      <div className="mt-12 text-center text-3xl justify-self-center py-4 w-60 rounded-full bg-gradient-to-r from-purple-900 viapurple-700 to-blue-800">Join us</div>
     </Section>
   );
 }

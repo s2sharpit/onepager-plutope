@@ -5,33 +5,33 @@ import Link from "next/link";
 const cardData = [
   {
     img: "Instagram",
-    views: 4200,
+    views: 4000,
     url: "https://www.instagram.com/plutope",
   },
   {
     img: "telegram",
-    views: 2300,
+    views: 1400,
     url: "https://t.me/plutopeglobal",
   },
   {
     img: "Discord",
-    views: 1900,
+    views: 2100,
     url: "https://discord.com/invite/yXgfQ8Kpwn",
   },
   {
     img: "twitter",
-    views: 5700,
+    views: 5900,
     url: "https://twitter.com/Plutopeio",
   },
   {
     img: "Linkdin",
-    views: 2100,
+    views: 2800,
     url: "https://www.linkedin.com/company/plutope/",
   },
   {
-    img: "Emailer",
-    views: 30000,
-    url: "mailto:hey@plutope.io",
+    img: "timer",
+    views: 31500,
+    url: "",
   }
 ];
 
@@ -42,7 +42,7 @@ export default function Footer() {
     toggle = !toggle;
     return (
       <div className="flex justify-center items-center">
-        <Link href={data.url} target="_blank" className={`${toggle && "order-last"}`}>
+        <Link href={data.url} target="_blank" className={`${toggle && "order-last"} ${!data.url && "pointer-events-none"}`}>
           <Image
             src={`/assets/${data.img}.png`}
             width={120}
