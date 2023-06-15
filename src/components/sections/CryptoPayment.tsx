@@ -36,9 +36,9 @@ export default function CryptoPayment() {
       </div>
       <Image
         className="justify-self-center max-sm:mt-60 max-w-xl w-screen"
-        src={"/assets/tableq.png"}
-        width={1000}
-        height={1000}
+        src={"/assets/tables.png"}
+        width={900}
+        height={900}
         alt=""
       />
     </Section>
