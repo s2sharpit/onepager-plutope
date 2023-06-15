@@ -5,7 +5,8 @@ export default function OurInvesters() {
   return (
     <Section>
       <Title>Tokenomics</Title>
-      <div className="grid grid-cols-3 gap-9 md:gap-x-16 place-items-center">
+      <Image src={'/assets/tokenomics.png'} width={700} height={700} alt="" />
+      {/* <div className="grid grid-cols-3 gap-9 md:gap-x-16 place-items-center">
         <Investor heading="5%" para="Pre Seed" />
         <Investor heading="13.3%" para="Seed" />
         <Investor heading="6%" para="Strategic" />
@@ -15,19 +16,19 @@ export default function OurInvesters() {
         <Investor heading="2.5%" para="Advisors" />
         <Investor heading="18.2%" para="Treasury Liquidity & Stacking" />
         <Investor heading="18%" para="Partnerships" />
-      </div>
+      </div> */}
     </Section>
   );
 }
 
-function Investor({ heading, para }: { heading: string; para: string }) {
-  return (
-    <div className="bg-[url('../../public/assets/hexagon.png')] bg-no-repeat bg-center bg-contain w-[5.5rem] h-24 xs:w-[7rem] xs:h-[7.5rem] px-0.5 flex flex-col items-center justify-center">
-      <h1 className="font-bold text-2xl">{heading}</h1>
-      <p className="flex items-center text-[0.6rem] xs:text-xs text-center h-8">
-        {para}
-      </p>
-    </div>
-  );
-}
+// function Investor({ heading, para }: { heading: string; para: string }) {
+//   return (
+//     <div className="bg-[url('../../public/assets/hexagon.png')] bg-no-repeat bg-center bg-contain w-[5.5rem] h-24 xs:w-[7rem] xs:h-[7.5rem] px-0.5 flex flex-col items-center justify-center">
+//       <h1 className="font-bold text-2xl">{heading}</h1>
+//       <p className="flex items-center text-[0.6rem] xs:text-xs text-center h-8">
+//         {para}
+//       </p>
+//     </div>
+//   );
+// }
 
