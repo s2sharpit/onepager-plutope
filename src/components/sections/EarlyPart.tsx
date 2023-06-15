@@ -28,7 +28,7 @@ export default function EarlyPart() {
       <Title className="max-sm:max-w-xs justify-self-center">
         Early Participation Benefits
       </Title>
-      <ul className="list-disc grid justify-center place-items-center max-w-6xl gap-x-20 items-center text-neutral-300 text-lg">
+      <ul className="marker:text-violet-900 marker:text-2xl list-disc grid justify-center place-items-center max-w-6xl gap-x-20 items-center text-neutral-300 text-lg">
         {data.map((d, i) => (
           <li key={i} className="text-center py-2 space-x-4 xl:py-3">
             {d.p}
@@ -39,7 +39,7 @@ export default function EarlyPart() {
       <Link
         href={"https://plutope.io/"}
         target="_blank"
-        className="mt-12 text-center text-3xl justify-self-center py-4 w-60 rounded-full bg-gradient-to-r from-purple-900 viapurple-700 to-blue-800"
+        className="mt-12 text-center text-2xl md:text-3xl justify-self-center py-4 w-60 rounded-full bg-gradient-to-r from-purple-900 viapurple-700 to-blue-800"
       >
         Join us
       </Link>
