@@ -34,7 +34,7 @@ export default function CryptoPayment() {
       <div className="absolute sm:hidden max-md:min-w-[100dvw] flex justify-self-center bottom-96 md:top-96">
         <Image
           className="top-40 relative "
-          src={"/assets/debitCard.png"}
+          src={"/assets/debitP.png"}
           width={1000}
           height={200}
           alt=""
