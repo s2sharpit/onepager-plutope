@@ -76,8 +76,8 @@ export default function Roadmap() {
         alt=""
         className="absolute -right-20 bottom-16"
       />
-      <Title className="mb-2">Roadmap</Title>
-      <Title className="font-extralight">Horizontal Scale</Title>
+      <Title>Roadmap</Title>
+      {/* <Title className="font-extralight">Horizontal Scale</Title> */}
       {/* <div className="max-w-2xl">
         {roadmapData.map((data) => (
           <Card key={data.yr} data={data} />
