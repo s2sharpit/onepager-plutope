@@ -3,9 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 const data = [
-  { p: "Upto 3.5 % cashback on spends" },
-  // { p: "Insured funds by BitGo post-swap" },
-  { p: "Integrated with Apple / Samsung / Google Pay" },
+  { p: "Upto 3.5% cashback on spends" },
+  { p: "Insured funds by BitGo post-swap" },
+  { p: "Integrated with Apple, Samsung & Google Pay" },
   { p: "Hold crypto qnd spend fiat" },
   { p: "Accepted at all Mastercard supported merchant" },
 ];
