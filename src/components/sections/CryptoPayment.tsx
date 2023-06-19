@@ -40,8 +40,17 @@ export default function CryptoPayment() {
           alt=""
         />
       </div>
+      <div className="absolute max-sm:hidden max-md:min-w-[100dvw] flex justify-self-center bottom-96 md:top-96">
+        <Image
+          className="-top-60 relative "
+          src={"/assets/debitP.png"}
+          width={1000}
+          height={200}
+          alt=""
+        />
+      </div>
       <Image
-        className="justify-self-center mt-60 sm:mt-12 max-w-xl w-screen"
+        className="justify-self-center mt-60 sm:mt-96 max-w-xl w-screen"
         src={"/assets/Table.png"}
         width={900}
         height={900}
