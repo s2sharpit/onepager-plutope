@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const data = [
-  { p: "upto 3.5 % cashback on spends" },
+  { p: "Upto 3.5 % cashback on spends" },
   // { p: "Insured funds by BitGo post-swap" },
   { p: "Integrated with Apple / Samsung / Google Pay" },
   { p: "Hold crypto qnd spend fiat" },
@@ -33,8 +33,8 @@ export default function CryptoPayment() {
       </div>
       <div className="absolute sm:hidden max-md:min-w-[100dvw] flex justify-self-center bottom-96 md:top-96">
         <Image
-          className="top-32 relative "
-          src={"/assets/debit.png"}
+          className="top-40 relative "
+          src={"/assets/debitCard.png"}
           width={1000}
           height={200}
           alt=""
