@@ -3,11 +3,11 @@ import Image from "next/image";
 import Link from "next/link";
 
 const data = [
-  { p: "Upto 3.5% cashback on spends" },
-  { p: "Insured funds by BitGo post-swap" },
+  { p: "Upto 3.5% Cashback on Spends" },
+  { p: "Funds Insured by BitGo post-swap" },
   { p: "Integrated with Apple, Samsung & Google Pay" },
-  { p: "Hold crypto qnd spend fiat" },
-  { p: "Accepted at all Mastercard supported merchant" },
+  { p: "Hold Crypto, Spend Fiat" },
+  { p: "Accepted at all Mastercard supported merchants" },
 ];
 
 export default function CryptoPayment() {
