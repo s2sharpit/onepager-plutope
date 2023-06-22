@@ -50,7 +50,7 @@ export default function CryptoPayment() {
         />
       </div> */}
       <Image
-        className="justify-self-center mt-60 sm:mt-96 max-w-xl w-screen"
+        className="justify-self-center max-sm:mt-60 sm:mt96 max-w-2xl w-screen"
         src={"/assets/tab.png"}
         width={1000}
         height={1000}
