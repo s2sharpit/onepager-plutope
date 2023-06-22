@@ -3,11 +3,11 @@ import Image from "next/image";
 import Link from "next/link";
 
 const data = [
-  { p: "Upto 3.5% cashback on spends" },
-  { p: "Insured funds by BitGo post-swap" },
+  { p: "Upto 3.5% Cashback on Spends" },
+  { p: "Funds Insured by BitGo post-swap" },
   { p: "Integrated with Apple, Samsung & Google Pay" },
-  { p: "Hold crypto qnd spend fiat" },
-  { p: "Accepted at all Mastercard supported merchant" },
+  { p: "Hold Crypto, Spend Fiat" },
+  { p: "Accepted at all Mastercard supported merchants" },
 ];
 
 export default function CryptoPayment() {
@@ -33,18 +33,27 @@ export default function CryptoPayment() {
       </div>
       <div className="absolute sm:hidden max-md:min-w-[100dvw] flex justify-self-center bottom-96 md:top-96">
         <Image
-          className="top-40 relative "
+          className="top-60 relative "
           src={"/assets/debitP.png"}
           width={1000}
           height={200}
           alt=""
         />
       </div>
+      {/* <div className="absolute max-sm:hidden max-md:min-w-[100dvw] flex justify-self-center bottom-96 md:top-96">
+        <Image
+          className="-top-60 relative "
+          src={"/assets/debitP.png"}
+          width={1000}
+          height={200}
+          alt=""
+        />
+      </div> */}
       <Image
-        className="justify-self-center mt-60 sm:mt-12 max-w-xl w-screen"
-        src={"/assets/Table.png"}
-        width={900}
-        height={900}
+        className="justify-self-center mt-60 sm:mt-96 max-w-xl w-screen"
+        src={"/assets/tab.png"}
+        width={1000}
+        height={1000}
         alt=""
       />
       <Link
